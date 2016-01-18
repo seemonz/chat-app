@@ -1,0 +1,32 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A chat app for the Eric and Simon's house!",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seemonz/chat-app.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Simon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seemonz/chat-app/issues"
+  },
+  "homepage": "https://github.com/seemonz/chat-app#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.4.4"
+  }
+}
